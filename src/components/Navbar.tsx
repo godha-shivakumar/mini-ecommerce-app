@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useCart } from "../context/CartContext";
 import type { CartItem } from "../context/CartContext";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -45,17 +46,17 @@ function Navbar() {
           zIndex: 100,
         }}
       >
-        <h1
+        <Link
+          to="/"
           style={{
-            margin: 0,
-            cursor: "pointer",
-            fontSize: "30px",
-            fontWeight: "700",
-            letterSpacing: "-1px",
+            textDecoration: "none",
+            color: "inherit",
+            fontSize: 30,
+            fontWeight: 700,
           }}
         >
           NUA
-        </h1>
+        </Link>
 
         <button
           onClick={() => setOpen(true)}
