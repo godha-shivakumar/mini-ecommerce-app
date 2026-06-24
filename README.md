@@ -111,4 +111,4 @@ Additional architectural decisions and implementation trade-offs are documented 
 
 Hosted on Vercel.
 
-**Live URL:** <ADD_VERCEL_URL>
+**Live URL:** https://mini-ecommerce-app-vm89.vercel.app/
