@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-**Live URL:** <ADD_VERCEL_URL>
+**Live URL:** https://mini-ecommerce-app-vm89.vercel.app/
 
 ## Tech Stack
 
